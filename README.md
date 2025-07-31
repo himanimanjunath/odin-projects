@@ -1,2 +1,2 @@
 # odin-projects
-Full stack projects from my work on the Odin Project.
+Hello! Here is my current project compilation for the Odin Project. Work in progress!
