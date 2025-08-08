@@ -181,9 +181,27 @@ result.setAttribute("class", "result");
 body.appendChild(result);
 
 const choices = document.createElement("div");
-choices.setAttribute("class", "choices");
+    choices.setAttribute("class", "choices");
+    const humanChoiceText = document.createElement("p");
+    const computerChoiceText = document.createElement("p");
+    humanChoiceText.textContent = "your choice: tbd";
+    computerChoiceText.textContent = "computer choice: tbd";
+    choices.appendChild(humanChoiceText);
+    choices.appendChild(computerChoiceText);
+    result.appendChild(choices);
+    const roundResult = document.createElement("p");
+    roundResult.textContent = "results will be displayed here"
+    roundResult.setAttribute("class", "roundResultText");
+    result.appendChild(roundResult);
 
-const humanChoiceText = document.createElement("p");
+    const scores = document.createElement("div");
+    const humanScoreText = document.createElement("p");
+    humanScoreText.textContent = "your score: " + humanScore;
+    const computerScoreText = document.createElement("p");
+    computerScoreText.textContent = "computer score: " + computerScore;
+    scores.appendChild(humanScoreText);
+    scores.appendChild(computerScoreText);
+    result.appendChild(scores);
     
 }
 
