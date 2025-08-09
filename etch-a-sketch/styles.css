@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: lavender;
+    color: #832f83;
+}
+
+body > * {
+    margin: 8px;
+    padding: 0px;
+    font-family: "Schoolbell", cursive;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 480px;
+    height: 480px;
+}
+
+.square {
+    border: 0.5px solid #a93da9;
+}
+
+.hover {
+    background-color: plum;
+}
+
+button {
+    border: 1px solid #832f83;
+    background-color: #e4b4e4;
+    color: #832f83;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
